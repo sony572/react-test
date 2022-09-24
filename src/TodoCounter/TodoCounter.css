@@ -1,0 +1,8 @@
+.TodoCounter {
+    background: dodgerblue;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 10px;
+}

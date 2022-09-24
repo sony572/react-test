@@ -1,0 +1,20 @@
+.loading {
+    text-align: center;
+    color: dodgerblue;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.TodoList {
+    padding: 0px 50px;
+    margin: 6em 0;
+}
+
+.place {
+    text-align: center;
+    color: gray;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

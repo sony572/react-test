@@ -1,0 +1,67 @@
+.TodoItem {
+    position: relative;
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    margin: 30px 0px;
+    list-style: none;
+    padding: 1em;
+    border-radius: 5px;
+    overflow: visible;
+}
+
+.TodoItem:hover {
+    background-color: rgb(230,255,255);
+}
+
+.TodoItem.completed .title {
+    text-decoration: line-through;
+    text-decoration-color: gray;
+    opacity: 0.4;
+}
+
+.TodoItem.completed .title::after {
+    color: green;
+}
+
+.TodoItem .title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    word-spacing: 3px;
+    padding: 0 4em;
+    color: gray;
+}
+
+.icon {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.icon.check {
+    background-color: rgba(34, 144, 255,0.2);
+    box-shadow: 0 0 4px 4px rgba(34, 144, 255,0.2);
+    left: 1em;
+    border-radius: 90px;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.icon.delete {
+    top: -0.5em;
+    right: 45px;
+}
+
+.completed .icon.check {
+    border-color: transparent;
+    background: rgba(34, 144, 255,0.8);
+    color: green;
+}
+
+.icon.delete:hover {
+    color: darkred;
+}

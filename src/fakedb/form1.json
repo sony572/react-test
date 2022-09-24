@@ -1,0 +1,23 @@
+[
+    {
+        "NameElement": "Nombre",
+        "type":"input",
+        "maxLength":90,
+        "required":true,
+        "defaultData":""
+    },
+    {
+        "NameElement": "Cedula",
+        "type":"inputNumber",
+        "maxLength":15,
+        "required":true,
+        "defaultData":""
+    },
+    {
+        "NameElement": "Sexo",
+        "type":"select",
+        "maxLength":0,
+        "required":true,
+        "defaultData":["Masculino", "Femenino"]
+    }
+]
